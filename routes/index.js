@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
   "El Rascacielos",
   "Tomb Raider: Las aventuras de Lara Croft",
   "Ant-Man 2 y la Avispa"];
-  var host = "http://localhost:8000"
+  var host = "http://52.67.169.228:8000"
   var list = [];
   for (var i = 0; i < data.length; i ++) {
     var r = i + 1;
